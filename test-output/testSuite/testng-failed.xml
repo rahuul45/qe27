@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [testSuite]">
+  <test thread-count="5" parallel="tests" name="First-test(failed)">
+    <classes>
+      <class name="com.cognizant.testng.LoginOne">
+        <methods>
+          <include name="loginexample"/>
+          <include name="Login"/>
+          <include name="Close"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.cognizant.testng.LoginOne -->
+    </classes>
+  </test> <!-- First-test(failed) -->
+</suite> <!-- Failed suite [testSuite] -->

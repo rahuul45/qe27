@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="testSuite" parallel="tests" >
+  <test name="First-test">
+    <classes>
+      <class name="com.cognizant.testng.LoginOne" />
+    </classes>
+  </test>
+  <test name="Second-test">
+    <classes>
+      <class name="com.cognizant.testng.LoginTwo" />
+     </classes>
+  </test>
+</suite>
